@@ -28,7 +28,7 @@ app.get('/search', async (req, res) => {
         icone: previsao.weather[0].icon,
         descricao: previsao.weather[0].description
         }))
-        res.json(previsao.data)
+        res.json(previsao)
 })
 
 const port = 3000
