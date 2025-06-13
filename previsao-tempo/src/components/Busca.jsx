@@ -29,6 +29,7 @@ const Busca = ({ setBusca }) => {
   return (
     <div>
       <input
+      style={{ borderRadius: '10px', borderColor: 'black', borderWidth: '2px', borderStyle: 'solid', fontSize: '20px', padding: '10px', textAlign: 'center', width: '150px' }}
         type="text"
         value={termoDeBusca}
         onChange={(e) => setTermoDeBusca(e.target.value)}
